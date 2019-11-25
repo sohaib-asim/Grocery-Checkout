@@ -1,0 +1,49 @@
+body {
+	margin: 0;
+	width: 100%;
+	height: 100vh;
+	font-family: "Exo", sans-serif;
+	background: linear-gradient(-100deg, #1d1c1c, #e73c7e, #23a6d5);
+	background-size: 400% 400%;
+}
+
+#block {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  float: left;
+}
+
+#cart{
+  margin-right: 10%; 
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: relative;
+  float: right;
+}
+
+table{
+  width: 300px;
+  border: black solid;
+}
+
+#receipt{
+  align-content: center;
+  text-align: center;
+}
+
+.row {
+  background: #f8f9fa;
+  margin-top: 20px;
+}
+
+.col {
+  border: solid 1px #6c757d;
+  padding: 10px;
+}
